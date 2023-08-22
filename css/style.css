@@ -1,0 +1,79 @@
+body{
+	font-family: 'Poppins', sans-serif;
+}
+h1{
+	width: 390px;
+	text-align: center;
+	color: #30265e;
+}
+figure{
+	width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	align-items: center;
+    text-align: center;
+    margin: 0;
+}
+p{
+	color: #696969;
+}
+.container{
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.figureContainer{
+	margin-top: 15px;
+	width: 1276px;
+	height: 575px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: space-around;
+}
+
+@media screen and (min-width: 720px) and (max-width: 1280px) {
+	.figureContainer{
+		margin-top: 15px;
+		width: 757px;
+		height: 902px;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-content: space-around;
+	}
+	p{
+		width: 542px;
+		text-align: center;
+	}
+	figcaption p{
+		width: 320px;
+	}
+}
+@media screen and (max-width: 720px) {
+	.figureContainer{
+		margin-top: 10px;
+		width: 602px;
+		height: 1662px;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-content: space-around;
+	}
+	p{
+		width: 360px;
+		text-align: center;
+	}
+	h1{
+		width: 365px;
+		color: #30265e;
+	}
+	figcaption p{
+		width: 320px;
+	}
+}
