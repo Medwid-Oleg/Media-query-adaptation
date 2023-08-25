@@ -35,10 +35,10 @@ p{
 	align-content: space-around;
 }
 
-@media screen and (min-width: 720px) and (max-width: 1280px) {
+@media screen and (min-width: 728px) and (max-width: 1280px) {
 	.figureContainer{
 		margin-top: 15px;
-		width: 757px;
+		width: 90%;
 		height: 902px;
 		display: flex;
 		flex-direction: row;
@@ -54,10 +54,10 @@ p{
 		width: 320px;
 	}
 }
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 728px) {
 	.figureContainer{
 		margin-top: 10px;
-		width: 602px;
+		width: 90%;
 		height: 1662px;
 		display: flex;
 		flex-direction: row;
